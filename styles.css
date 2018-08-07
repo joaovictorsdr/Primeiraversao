@@ -1,6 +1,6 @@
 body{
     margin: 0%;
-    background-color: yellow;
+    background-color: aliceblue;
     font-family:'Roboto', sans-serif;
 }
 
@@ -10,14 +10,69 @@ h1,h2{
     font-weight: 800;
 }
 
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    height:100px;
+    background-color: aqua;
+}
+
+nav{
+    text-align: center;
+    margin-right: 62%;
+    width: 100%
+    }
+.menu a{
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 10px;
+    color: #296cd8
+}
+nav img{
+    height: 100%;
+    width: 69px;
+    float: right;
+    padding-right: 15px;
+}
+
+
 p{
     margin-left: 10px;
-    color: red;
+    color:black;
 }
+
+.legenda{
+    color: red;
+    font-size: 15px;
+    font-style: italic;
+}
+
+.rodape{
+    background-color: black;
+    display: flex;
+    height: 150px;
+}
+
+#especial{
+    border: solid red 3px;
+    margin-left: 10px;
+    margin right: 10px;
+    font-size: 15px;
+}
+
 
 button{
     border: solid blue;
     background-color: white;
     border-radius: 10px;
     padding: 2S0px;
+}
+#gatinho{
+    margin: 0 auto;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+
 }
